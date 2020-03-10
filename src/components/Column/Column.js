@@ -5,7 +5,7 @@ import Card from '../Card/Card.js';
 import Icon from '../Icon/Icon.js';
 import Creator from '../Creator/Creator.js';
 import {
-  settings
+  settings,
 } from '../../data/dataStore';
 
 class Column extends React.Component {
@@ -13,7 +13,7 @@ class Column extends React.Component {
     cards: this.props.cards || [],
   }
   static propTypes = {
-    titleColumn: PropTypes.node.isRequired,
+    title: PropTypes.node.isRequired,
     cards: PropTypes.array,
     addCard: PropTypes.func,
     icon: PropTypes.node,
@@ -28,13 +28,13 @@ class Column extends React.Component {
     this.setState(state => (
       {
         cards: [...state.cards,
-        {
-          key: state.cards.length ? state.cards[state.cards.length - 1].key + 1 : 0,
-          title,
-          icon: 'list-alt',
-          cards: []
-        }
-        ]
+          {
+            key: state.cards.length ? state.cards[state.cards.length - 1].key + 1 : 0,
+            title,
+            icon: 'list-alt',
+            cards: [],
+          },
+        ],
       }));
   }
   render() {
