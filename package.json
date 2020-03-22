@@ -23,6 +23,8 @@
   "dependencies": {
     "dist": "^0.1.2",
     "http-server": "^0.12.1",
+    "inline-source-map": "^0.6.2",
+    "performance-now": "^2.1.0",
     "prop-types": "^15.7.2",
     "react": "^16.7.0",
     "react-beautiful-dnd": "^13.0.0",

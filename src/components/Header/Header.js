@@ -12,13 +12,12 @@ class Header extends React.Component {
     icon: PropTypes.any,
   }
   render() {
-    const {icon} = settings.header;
     return (
       <header className={styles.component}>
         <Container>
           <div className={styles.wrapper}>
             <Link className={styles.logo} to='/'>
-              <Icon name={icon}></Icon>
+              <Icon name={settings.icon}></Icon>
             </Link>
             <nav>
               <NavLink exact to='/' activeClassName='active'>Home</NavLink>

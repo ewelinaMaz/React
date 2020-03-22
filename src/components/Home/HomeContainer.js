@@ -9,9 +9,9 @@ const mapStateToProps = (state) => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-  moveCard: payload => dispatch(createAction_moveCard({
+  moveCard: payload => dispatch(createAction_moveCard(
     payload,
-  })),
+  )),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Home);

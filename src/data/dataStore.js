@@ -47,12 +47,10 @@ export const listData = {
         {
           key: 0,
           title: 'This Is Going to Hurt',
-          index: 0,
         },
         {
           key: 1,
           title: 'Interpreter of Maladies',
-          index: 1,
         },
       ],
     },
@@ -64,12 +62,10 @@ export const listData = {
         {
           key: 0,
           title: 'Harry Potter',
-          index: 0,
         },
         {
           key: 1,
           title: 'Star Wars',
-          index: 1,
         },
       ],
     },
@@ -81,12 +77,10 @@ export const listData = {
         {
           key: 0,
           title: 'The Witcher',
-          index: 0,
         },
         {
           key: 1,
           title: 'Skyrim',
-          index: 1,
         },
       ],
     },
@@ -98,6 +92,18 @@ const lists = [
     id: 'list-1',
     title: 'Things to do <sup>soon!</sup>',
     description: 'Interesting things I want to check out!',
+    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  },
+  {
+    id: 'list-2',
+    title: 'Things to do <sup> later!</sup>',
+    description: 'Interesting places I want to visit!',
+    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  },
+  {
+    id: 'list-3',
+    title: 'Long term plans and <sup>dreams</sup>',
+    description: 'Lets go to the future!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
 ];
