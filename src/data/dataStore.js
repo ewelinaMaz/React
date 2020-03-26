@@ -130,47 +130,83 @@ const columns = [
   {
     id: 'column-4',
     listId: 'list-2',
-    title: 'Strange column',
-    icon: 'question',
+    title: 'Flying',
+    icon: 'plane',
+  },
+  {
+    id: 'column-5',
+    listId: 'list-2',
+    title: 'Swimming',
+    icon: 'ship',
+  },
+  {
+    id: 'column-6',
+    listId: 'list-2',
+    title: 'shopping',
+    icon: 'store-alt',
   },
 ];
 
 const cards = [
   {
     id: 'card-1',
-    index: 0,
+    listId: 'list-1',
     columnId: 'column-1',
     title: 'This Is Going to Hurt',
   },
   {
     id: 'card-2',
-    index: 1,
+    listId: 'list-1',
     columnId: 'column-1',
     title: 'Interpreter of Maladies',
   },
   {
     id: 'card-3',
-    index: 0,
+    listId: 'list-1',
     columnId: 'column-2',
     title: 'Harry Potter',
   },
   {
     id: 'card-4',
-    index: 1,
+    listId: 'list-1',
     columnId: 'column-2',
     title: 'Star Wars',
   },
   {
     id: 'card-5',
-    index: 0,
+    listId: 'list-1',
     columnId: 'column-3',
     title: 'The Witcher',
   },
   {
     id: 'card-6',
-    index: 1,
+    listId: 'list-1',
     columnId: 'column-3',
     title: 'Skyrim',
+  },
+  {
+    id: 'card-7',
+    listId: 'list-2',
+    columnId: 'column-4',
+    title: 'Kite',
+  },
+  {
+    id: 'card-8',
+    listId: 'list-2',
+    columnId: 'column-4',
+    title: 'Airplane',
+  },
+  {
+    id: 'card-9',
+    listId: 'list-2',
+    columnId: 'column-5',
+    title: 'Boat',
+  },
+  {
+    id: 'card-10',
+    listId: 'list-3',
+    columnId: 'column-6',
+    title: 'Sunglasses',
   },
 ];
 

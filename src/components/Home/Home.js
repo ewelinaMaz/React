@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Home.scss';
 import ListLink from '../ListLink/ListLink';
 import PropTypes from 'prop-types';
+import Container from '../Container/Container';
 //import {DragDropContext} from 'react-beautiful-dnd';
 
 class Home extends React.Component {
@@ -43,9 +44,11 @@ class Home extends React.Component {
         <h2 className={styles.subtitle}>{subtitle}</h2>
         {/*
         <DragDropContext onDragEnd = {moveCardHandler}>*/}
-        {lists.map(listData => (
-          <ListLink key={listData.id} {...listData} />
-        ))}
+        <Container>
+          {lists.map(listData => (
+            <ListLink key={listData.id} {...listData} />
+          ))}
+        </Container>
         {/*</DragDropContext>*/}
       </main>
     );

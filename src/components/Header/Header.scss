@@ -17,15 +17,15 @@
       color: $color-warning;
     }
   }
-
 }
 
 .wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
 
 .logo {
   font-size: 24px;
+  margin-right: $base-size;
 }

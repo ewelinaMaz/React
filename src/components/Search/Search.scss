@@ -1,8 +1,9 @@
 @import '../../styles/settings.scss';
 
 .component {
-  width: 100%;
+  width: 85%;
   display: flex;
+  justify-content: flex-end;
 
   input {
     // flex-grow: 1;
